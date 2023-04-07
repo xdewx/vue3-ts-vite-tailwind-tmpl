@@ -8,7 +8,9 @@ created by `npm create vue@3`
 1. pinia+vue-router
 1. eslint+prettier
 2. tailwindcss+postcss
-
+1. unplugin-auto-import
+1. unplugin-vue-components
+1. unplugin-icons
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
