@@ -31,27 +31,29 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
+~~"tauri:dev": "cross-env RUST_BACKTRACE=1 concurrently -k \"pnpm tauri dev\" \"pnpm dev\""~~
+由于tauri初始化时设置了beforeDevCommand等，因此没有必要使用上述命令手动启动二者
 
 ```sh
-npm install
+pnpm install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
-npm run build
+pnpm run build
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
-npm run test:unit
+pnpm run test:unit
 ```
 
 ### Run End-to-End Tests with [Playwright](https://playwright.dev)
@@ -61,20 +63,20 @@ npm run test:unit
 npx playwright install
 
 # When testing on CI, must build the project first
-npm run build
+pnpm run build
 
 # Runs the end-to-end tests
-npm run test:e2e
+pnpm run test:e2e
 # Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
+pnpm run test:e2e -- --project=chromium
 # Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
+pnpm run test:e2e -- tests/example.spec.ts
 # Runs the tests in debug mode
-npm run test:e2e -- --debug
+pnpm run test:e2e -- --debug
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+pnpm run lint
 ```
