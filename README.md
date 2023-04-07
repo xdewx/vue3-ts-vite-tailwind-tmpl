@@ -1,6 +1,13 @@
 # ipa
 
-This template should help get you started developing with Vue 3 in Vite.
+created by `npm create vue@3`
+
+1. vite+vitest
+1. playwright
+1. ts+vue-tsc
+1. pinia+vue-router
+1. eslint+prettier
+2. tailwindcss+postcss
 
 ## Recommended IDE Setup
 
