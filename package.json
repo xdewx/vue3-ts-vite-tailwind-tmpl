@@ -11,7 +11,8 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "tauri:dev": "cross-env RUST_BACKTRACE=1 tauri dev"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.2.0",
