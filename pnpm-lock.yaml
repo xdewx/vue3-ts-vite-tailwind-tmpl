@@ -5114,17 +5114,18 @@ packages:
       punycode: registry.npmmirror.com/punycode/2.3.0
     dev: true
 
-  registry.npmmirror.com/treemate/0.3.11:
-    resolution: {integrity: sha512-M8RGFoKtZ8dF+iwJfAJTOH/SM4KluKOKRJpjCMhI8bG3qB74zrFoArKZ62ll0Fr3mqkMJiQOmWYkdYgDeITYQg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/treemate/-/treemate-0.3.11.tgz}
-    name: treemate
-    version: 0.3.11
-    dev: true
   registry.npmmirror.com/tree-kill/1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tree-kill/-/tree-kill-1.2.2.tgz}
     name: tree-kill
     version: 1.2.2
     hasBin: true
     dev: false
+
+  registry.npmmirror.com/treemate/0.3.11:
+    resolution: {integrity: sha512-M8RGFoKtZ8dF+iwJfAJTOH/SM4KluKOKRJpjCMhI8bG3qB74zrFoArKZ62ll0Fr3mqkMJiQOmWYkdYgDeITYQg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/treemate/-/treemate-0.3.11.tgz}
+    name: treemate
+    version: 0.3.11
+    dev: true
 
   registry.npmmirror.com/ts-interface-checker/0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz}
