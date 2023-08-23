@@ -1,5 +1,11 @@
-# ipa
+# Vue3项目快速开发模版
 
+## 仓库分支说明
+
+1. main分支是基础分支，不包含UI框架
+2. naive分支基于main分支，并引入了naive组件库
+
+## 项目结构说明
 created by `npm create vue@3`
 
 1. vite+vitest
